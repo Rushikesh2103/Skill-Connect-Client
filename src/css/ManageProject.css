@@ -1,0 +1,79 @@
+.manage-projects-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .content {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 2px solid #ddd;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .project-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .project-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .project-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles for the earning tracker section */
+  .earning-tracker input {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .earning-tracker button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .earning-tracker button:hover {
+    background-color: #218838;
+  }

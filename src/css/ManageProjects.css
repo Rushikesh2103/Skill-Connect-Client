@@ -1,0 +1,43 @@
+.manage-projects-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar button.active {
+  background-color: #0056b3;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card button {
+  margin-right: 10px;
+}
